@@ -3,3 +3,5 @@ java是解释型语言
 jdk,jre,jvm
     jdk = jre + java的开发工具（java, javac, javadoc, javap...）
     jre = jvm + java核心类库(java se标准类库)
+MacOS 查看jdk路径
+    /usr/libexec/java_home -V
