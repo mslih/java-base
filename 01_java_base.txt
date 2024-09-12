@@ -1,2 +1,5 @@
 java是解释型语言
     解释型语言，编译后不能直接被机器执行，需要解释器来执行(js,php,java)。编译型语言,编译后的代码,可以直接被机器执行(c/c++)
+jdk,jre,jvm
+    jdk = jre + java的开发工具（java, javac, javadoc, javap...）
+    jre = jvm + java核心类库(java se标准类库)
