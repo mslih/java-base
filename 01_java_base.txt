@@ -5,3 +5,6 @@ jdk,jre,jvm
     jre = jvm + java核心类库(java se标准类库)
 MacOS 查看jdk路径
     /usr/libexec/java_home -V
+java注意事项
+    一个源文件中最多只能有一个public类，其他类的个数不限
+    如果源文件包含一个public类，则文件名必须按该类名命名
