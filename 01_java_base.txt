@@ -19,3 +19,13 @@ java数据类型
             取：将二进制转成码值，然后再将码值转换成对应的字符，并输出。
     布尔类型：boolean(1个字节)
         不可以使用0或者非0的整数代替false和true
+java基本数据类型的转换
+    在进行赋值或运算时，精度小的类型自动换行为精度大的数据类型。
+    char -> int -> long -> float -> double
+    byte -> short -> int -> long -> float -> double
+    char 和 byte,short 之间不发生自动类型转换
+    byte,short,char三者在进行计算时，默认会转成int类型
+    boolean 不参与自动类型转换
+    表达式结果的类型自动提升为操作数中最大的类型
+java基本数据类型的强制类型转换
+    将容量大的数据类型转换为容量小的数据类型，会造成精度降低或溢出
