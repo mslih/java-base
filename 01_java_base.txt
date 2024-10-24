@@ -215,4 +215,27 @@ final 关键字
 
 注解
 
+============================= 包装类 ===========================
+装箱   Integer i = Integer.valueOf(1);
+拆箱   int i2 = i.intValue(i);
+
+jdk 1.5之后 自动装拆箱
+    Integer i = 1
+    int i2 = i
+Integer 的缓存是从 -128 ~ 127
+
+String
+    intern():返回字符串对象value属性指向常量池中的地址
+    String str = "abc" + "hello";  // 编译器再编译时优化，共 创建一个对象，即 "abchello"
+
+    代码分析
+        String a = "abc";
+        String b = "hello";
+        String c = a + b;
+            // 最后一行代码分析: 
+                1. 先创建一个StringBuilder sb = new StringBuilder()
+                2. 执行 sb.append("abc")
+                3. 执行 sb.append("hello")
+                4. String c = sb.toString()
+
 ============================= java 核心类库 =======================
