@@ -241,5 +241,33 @@ String
                 2. 执行 sb.append("abc")
                 3. 执行 sb.append("hello")
                 4. String c = sb.toString()
+    String 常用方法
+        equalsIgnoreCase(): 忽略大小写比较
+        length():字符串的长度
+        indexOf()： 获取字符再字符串中第一次出现的位置，没有则返回-1
+        lastIndexOf():字符再字符串中最后一次出现的位置。
+        substring():字符串截取
+        concat(): 字符串拼接
+        replace():字符串替换， 不改变原数据
+        split():字符串分割
+        toCharArray():将字符串转成字符数组
+        String.format(): 字符串格式化， %s: 字符串；  %d 整数；  %.2f 保留2位的小数; %c: char
 
-============================= java 核心类库 =======================
+    StringBuffer 常用方法
+        append(): 追加
+        delete(index1, index2)：删除索引index1 到 index2的字符，不包含index2
+        replace(): 替换
+        insert() : 插入
+    String 和 StringBuffer转换
+        StringBuffer sb = new StringBuffer(str);
+        String str = sb.toString()
+        String str = new String(sb)
+
+
+============================= java 常用类 =======================
+Arrays  （所有的方法为静态的）
+    toString():数组转字符串
+    sort(): 数组排序
+    copyOf(): 拷贝一个数组中的n个元素
+    fill(): 数组的填充，替换原来的元素
+    asList(): 数组转list
