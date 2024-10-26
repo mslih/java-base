@@ -271,3 +271,16 @@ Arrays  （所有的方法为静态的）
     copyOf(): 拷贝一个数组中的n个元素
     fill(): 数组的填充，替换原来的元素
     asList(): 数组转list
+    arrayscopy():数组拷贝
+System 
+    currentTimeMillens(): 当前的时间戳（毫秒数）
+BigInteger
+    add() ：加
+    subtract() ：减
+    multiply() ： 乘
+    divide()：除
+BigDecimal
+    add() ：加
+    subtract() ：减
+    multiply() ： 乘
+    divide()：除 (需要指定精度)
