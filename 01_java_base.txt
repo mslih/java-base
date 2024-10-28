@@ -284,3 +284,20 @@ BigDecimal
     subtract() ：减
     multiply() ： 乘
     divide()：除 (需要指定精度)
+
+第一代日期类
+    Date
+        new Date(): 获取当前时间
+        getTime(): 获取时间戳 毫秒
+    SimpleDateFormat 格式化时间对象
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-...)
+        sdf.format(date)    // 将Date转成String
+        sdf.parse() // 将String转成Date 
+第二代日期类
+    Calendar 日期类
+
+第三代日期类
+    LocalDate, LocalTime, LocalDateTime
+    DateTimeFormatter.ofPattern():日期格式化
+
+===================== 集合 ========================
